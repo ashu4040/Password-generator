@@ -1,0 +1,101 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Pacifico&family=Rubik&display=swap');
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #1F51FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 50%;
+    height: 60vh;
+    background-color:  #1F51FF;
+    box-shadow: 10px 10px 100px ;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#password{
+    font-family: 'Inclusive Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Rubik', sans-serif;
+    width: 98%;
+    height: 8vh;
+    background-color: white;
+    color: grey;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 50px;
+    border-radius: 7px;
+    margin-top: 10px;
+    padding: 5px 0px 0px 15px;
+}
+.row{
+    display: flex;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Rubik', sans-serif;
+    /* background-color: blue; */
+    margin:10px 0px 0px 10px ;
+    width: 95%;
+    height: 5vh;
+    font-size: 35px ;
+    position: relative;
+    color: white;
+    padding: 25px 0px 0px 0px;
+}
+#total-char{
+    width: 45px;
+    height: 30px;
+}
+
+#upper-case{
+    width: 40px;
+    height: 25px;
+}
+#lower-case{
+    width: 40px;
+    height: 25px;
+}
+
+#number{
+    width: 40px;
+    height: 25px;
+}
+
+#symbol{
+    width: 40px;
+    height: 25px;
+}
+.right{
+    /* background-color: tomato; */
+    position: absolute;
+    right: 0px;
+    
+}
+#submit{
+    background-color: #191970;
+    width: 98%;
+    height: 8vh;
+    /* background-color: white; */
+    color: white    ;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* text-align: left; */
+    font-size: 50px;
+    border-radius: 7px;
+    margin-top: 90px;
+    padding: 0px 0px 5px 0px;
+    text-align: center;
+    border: none;
+    
+    
+}
